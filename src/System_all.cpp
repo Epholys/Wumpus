@@ -326,10 +326,7 @@ void S_Generate::process(long previousFrameTime)
 		{
 			unsigned int wall = em->create_entity(Walll());
 			labyrinth[i][j] = wall;
-			Component* pos = em->get_component(wall, C_Position);
-			if (!pos) throw runtime_error("S_Generate(): can't find Position of "+wall);
-			Position* position = dynamic_cast<Position*>(pos);
-			if (!position) throw runtime_error("S_Generate(): can't cast Component* into Position*");
+			Position* position = em->get_component<Position*>(wall, C_Position);
 			position->x = i;
 			position->y = j;
 		}
