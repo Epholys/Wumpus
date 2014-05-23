@@ -1,0 +1,31 @@
+
+
+		*** Help ***
+	
+	** History **
+You are a brave adventurer who must slay for the villagers the terrible and smelly Wumpus.
+In exchange of a handful of gold coins, of course.
+But as soon as you enter the cavern, the smell is so strong that you lose consciousness.
+You wake up some hours later, your torch extinguished, by the sound of naked wings : a giant bat has taken you for its dinner!
+You knock off the monster with your bare hands and fell together into the solid ground.
+-----
+You are now completely lost, in the dark, with for only weapon your bow and 10 arrows, and must annihilate the Wumpus.
+But beware! Numerous traps are hidden in this cave, and maybe this giant bat wasn't the only one...
+
+	** Gameplay **
+You can move freely in this cavern. Pay attention to your senses, they might save your life...
+When you fire an arrow, it goes through 3 rooms but it also wake up the Wumpus, so beware !
+
+	** Control **
+This is a textual game in which you control your character by typing orders.
+Here's the list:
+  m -> move
+  s -> shoot
+  w -> wait
+with the modifiers:
+  n -> north
+  e -> east
+  s -> south
+  w -> west
+For example, type `mn' to move to the north or `se' to shoot an arrow to the 3 adjacent east rooms.
+
